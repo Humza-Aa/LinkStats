@@ -1,0 +1,7 @@
+.SimpleHeaderCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 13px 5px var(--color2);
+    margin: 0;
+}

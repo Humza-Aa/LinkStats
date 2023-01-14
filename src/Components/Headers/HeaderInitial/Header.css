@@ -1,0 +1,32 @@
+.HeaderContainer {
+  width: 100%;
+  height: 9%;
+  margin: 0;
+  padding: 15px 10%;
+  box-shadow: 0px 1px 13px 5px var(--color2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Title {
+  margin: 0;
+}
+
+.LoginBtn {
+  margin-right: 10px;
+}
+
+.LoginBtn,
+.SignUpBtn {
+  border: 2px solid var(--color2);
+  color: var(--color2);
+  font-weight: 700;
+}
+
+.LoginBtn:hover,
+.SignUpBtn:hover {
+  background-color: var(--color2);
+  border: 2px solid var(--color2);
+  transition-delay: 0.1s;
+}

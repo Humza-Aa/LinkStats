@@ -1,0 +1,22 @@
+:root {
+    --color1: #000000;
+    --color2: #506C64;
+    --color3: #82deca;
+    --color4: #75B8C8;
+    --color5: #CDD3D5;
+
+}
+
+html, body {
+    height: 100vh;
+    /* width: 100vw; */
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.MainContainer {
+    height: 100%;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+}
