@@ -1,9 +1,9 @@
 :root {
     --color1: #000000;
-    --color2: #506C64;
-    --color3: #82deca;
-    --color4: #75B8C8;
-    --color5: #CDD3D5;
+    --color2: #363946;
+    --color3: #696773;
+    --color4: #819595;
+    --color5: #ffffff;
 
 }
 
@@ -11,7 +11,7 @@ html, body {
     height: 100vh;
     /* width: 100vw; */
     background-color: var(--color1);
-    color: var(--color3);
+    color: var(--color5);
 }
 
 .MainContainer {
