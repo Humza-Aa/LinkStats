@@ -5,7 +5,9 @@
 }
 
 .RegFormDiv {
+    overflow: auto;
     height: 92% !important;
+    min-height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,7 +19,8 @@
     background-color: var(--color2);
     padding: 20px;
     border-radius: 10px;
-    min-width: 20%;
+    min-width: 350px;
+    max-width: 32%;
     min-height: 40%;
     display: flex;
     justify-content: center;
@@ -35,3 +38,32 @@
     background-color: var(--color2);
     border: 2px solid var(--color3);
 }
+
+.show {
+    padding: 0 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.crossRed {
+    color: red;
+}
+
+.checkGreen {
+    color: rgb(0, 255, 0);   
+}
+
+.pwdInfoDiv {
+    display: flex;
+}
+.pwdInfoIconDiv {
+    padding: 3px 10px;
+}
+
+.pwdInfoIcon {
+    padding-right: 10px 10px;
+}
+
+
